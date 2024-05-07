@@ -414,4 +414,29 @@ public class MainActivity2 extends AppCompatActivity {
 
                 }}
         }
-    }}
+    }
+
+    public List<String> getAllSpinnerTexts(Spinner spinner) {
+        List<String> spinnerTexts = new ArrayList<>();
+        ArrayAdapter<String> adapter = (ArrayAdapter<String>) spinner.getAdapter();
+        if (adapter != null) {
+            int count = adapter.getCount();
+            for (int i = 0; i < count; i++) {
+                spinnerTexts.add(adapter.getItem(i));
+            }
+        }
+        return spinnerTexts;
+    }
+
+    List<Pair<String, String>> getCollegesNamesAndId() {
+        List<Pair<String, String>> resulte = new ArrayList<>();
+        List<String> namesOfColleges = getAllSpinnerTexts(collegeSpinner);
+
+        for (int i = 0; i < namesOfColleges.size(); i++) {
+            resulte.add(new Pair<>(namesOfColleges.get(i), "12"));
+        }
+
+        return resulte;
+    }
+
+}
