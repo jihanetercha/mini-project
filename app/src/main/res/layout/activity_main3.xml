@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+
+
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:columnCount="7"
+            android:orientation="horizontal"
+            android:rowCount="6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <!-- Row 1 -->
+            <TextView
+                android:id="@+id/textView1_1"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView1_2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_columnWeight="1"
+
+                android:layout_marginBottom="10dp"
+                android:background="@color/main_blue"
+                android:fontFamily="@font/alata"
+                android:text="  8:00   -     9:30 "
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView1_3"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/main_blue"
+                android:fontFamily="@font/alata"
+
+                android:text="  9:40  -   11:10 "
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView1_4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/main_blue"
+                android:fontFamily="@font/alata"
+                android:text="  11:20  -   12:50 "
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView1_5"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/main_blue"
+                android:fontFamily="@font/alata"
+                android:text="  13:10  -  14:40 "
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView1_6"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/main_blue"
+                android:fontFamily="@font/alata"
+                android:text="  14:50  -   16:20 "
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView1_7"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/main_blue"
+                android:fontFamily="@font/alata"
+                android:text="  16:30  -   18:00 "
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/textView2_1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="12dp"
+                android:background="#0582ca"
+                android:fontFamily="@font/alata"
+                android:text="  Dimanche "
+                android:textColor="@color/white" />
+
+            <TextView
+
+
+                android:id="@+id/textView2_2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView2_3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView2_4"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView2_5"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView2_6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView2_7"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView3_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="12dp"
+                android:background="#00a6fb"
+                android:fontFamily="@font/alata"
+                android:text="  Lundi "
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView3_2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView3_3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView3_4"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView3_5"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView3_6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView3_7"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView4_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="12dp"
+                android:background="#5FBDFF"
+                android:fontFamily="@font/alata"
+                android:text="  Mardi"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView4_2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView4_3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView4_4"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView4_5"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView4_6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView4_7"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView5_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="12dp"
+                android:background="#6CCFFF"
+                android:fontFamily="@font/alata"
+                android:text="  Mercredi "
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView5_2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView5_3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView5_4"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView5_5"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView5_6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView5_7"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView6_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginRight="12dp"
+                android:background="#90DBFF"
+                android:fontFamily="@font/alata"
+                android:text="  jeudi"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView6_2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView6_3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView6_4"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView6_5"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView6_6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+
+            <TextView
+                android:id="@+id/textView6_7"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:background="#e8f8fc"
+                android:fontFamily="@font/alata"
+                android:text="Tv" />
+        </GridLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
