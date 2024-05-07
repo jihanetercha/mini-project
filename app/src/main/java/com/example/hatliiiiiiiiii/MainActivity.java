@@ -11,6 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    //get a new update
     public static int SPLASH_SCREEN=2000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
